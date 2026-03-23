@@ -1,3 +1,6 @@
 .nascondi-descr p.card-text {
     display: none;
 }
+.title-16pt h5 {
+    font-size: 16px;
+}
