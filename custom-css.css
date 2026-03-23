@@ -14,3 +14,7 @@
     height: 30px;
     margin-right: 10px;
 }
+.social-mm .card-image,
+.social-mm h5.card-title{
+    display: none;
+}
