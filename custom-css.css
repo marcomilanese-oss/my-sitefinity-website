@@ -21,6 +21,9 @@
 .accordion {
     margin-bottom: 2rem;
 }
+.hero-caption h5.title-link {
+    margin-bottom: 0px;
+}
 @media (min-width: 1200px) {
     .hero-banner {
         min-height: 300px;
