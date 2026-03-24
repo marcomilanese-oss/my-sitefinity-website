@@ -21,3 +21,7 @@
 .accordion {
     margin-bottom: 2rem;
 }
+@media (min-width: 1200px) {
+    .hero-banner {
+        min-height: 300px;
+    }
