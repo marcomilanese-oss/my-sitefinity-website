@@ -24,6 +24,9 @@
 .hero-caption h5.title-link {
     margin-bottom: 0px;
 }
+.card .card-title {
+    margin-bottom: 0px !important;
+}
 @media (min-width: 1200px) {
     .hero-banner {
         min-height: 300px;
