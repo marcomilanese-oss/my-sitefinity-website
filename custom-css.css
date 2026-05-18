@@ -27,6 +27,9 @@
 .card .card-title {
     margin-bottom: 0px !important;
 }
+.bordo-img {
+    border: 1px solid #e6e9ec;
+}
 @media (min-width: 1200px) {
     .hero-banner {
         min-height: 300px;
