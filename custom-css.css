@@ -30,6 +30,14 @@
 .bordo-img {
     border: 1px solid #e6e9ec;
 }
+.nav-item.active > .dropdown-menu > li:first-child .dropdown-item::before {
+    content: "Core areas";
+    display: inline-block;
+}
+.nav-item.active > .dropdown-menu > li:nth-child(4) .dropdown-item::before {
+    content: "Cross-cutting themes";
+    display: inline-block;
+}
 @media (min-width: 1200px) {
     .hero-banner {
         min-height: 300px;
