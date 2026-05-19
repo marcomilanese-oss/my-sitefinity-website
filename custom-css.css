@@ -55,3 +55,6 @@
     .hero-banner {
         min-height: 300px;
     }
+    .banner-homepage .hero-banner {
+        min-height: 475px;
+    }
