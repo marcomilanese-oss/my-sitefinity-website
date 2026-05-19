@@ -51,6 +51,12 @@
     border-top: 1px solid #DEE1E5;
     margin-top: 0.75rem;
 }
+.card-img-overlay h6.title-caption {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: .75rem;
+}
 @media (min-width: 1200px) {
     .hero-banner {
         min-height: 300px;
