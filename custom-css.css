@@ -30,7 +30,7 @@
 .bordo-img {
     border: 1px solid #e6e9ec;
 }
-.areas-work-menu .dropdown-menu > li:first-child::before {
+#navbarDropdown-1_9DC9B735-64AD-4533-A3F9-EB9B65DCECDB + .dropdown-menu > li:first-child::before {
     content: "Core areas";
     display: block;
     color: var(--on-background-secondary);
@@ -40,7 +40,7 @@
     padding: .5rem 1rem .25rem;
 }
 
-.areas-work-menu .dropdown-menu > li:nth-child(4)::before {
+#navbarDropdown-1_9DC9B735-64AD-4533-A3F9-EB9B65DCECDB + .dropdown-menu > li:nth-child(4)::before {
     content: "Cross-cutting areas";
     display: block;
     color: var(--on-background-secondary);
