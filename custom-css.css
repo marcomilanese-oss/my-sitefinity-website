@@ -30,13 +30,24 @@
 .bordo-img {
     border: 1px solid #e6e9ec;
 }
-.nav-item.active > .dropdown-menu > li:first-child .dropdown-item::before {
+.areas-work-menu .dropdown-menu > li:first-child::before {
     content: "Core areas";
-    display: inline-block;
+    display: block;
+    color: var(--on-background-secondary);
+    font-size: .75rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: .5rem 1rem .25rem;
 }
-.nav-item.active > .dropdown-menu > li:nth-child(4) .dropdown-item::before {
-    content: "Cross-cutting themes";
-    display: inline-block;
+
+.areas-work-menu .dropdown-menu > li:nth-child(4)::before {
+    content: "Cross-cutting areas";
+    display: block;
+    color: var(--on-background-secondary);
+    font-size: .75rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: .75rem 1rem .25rem;
 }
 @media (min-width: 1200px) {
     .hero-banner {
