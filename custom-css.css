@@ -1,4 +1,4 @@
-.nascondi-descr p.card-text {
+.nascondi-descr p.card-text, .nascondi-descr p {
     display: none;
 }
 .small-decr p.card-text {
