@@ -198,7 +198,7 @@ window.GFCM_MEETINGS_COLUMNS = [
 ;
 
 window.GFCM_MEETINGS_METADATA = {
-  "generatedAt": "2026-06-10T09:25:00.2445657Z",
+  "generatedAt": "2026-06-10T09:30:40.6482428Z",
   "source": "Dataverse",
   "environment": "GFCM Extranet Environment",
   "table": "new_website_meetingses",
