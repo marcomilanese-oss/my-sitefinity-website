@@ -1,6 +1,6 @@
 window.GFCM_MEETINGS_EXPORT = {
   "metadata": {
-    "generatedAt": "2026-06-11T10:00:21.9945605Z",
+    "generatedAt": "2026-06-11T10:54:40.5709616Z",
     "source": "Dataverse",
     "environment": "GFCM Extranet Environment",
     "table": "new_website_meetingses",
@@ -9,531 +9,152 @@ window.GFCM_MEETINGS_EXPORT = {
   },
   "columns": [
     {
-      "key": "createdOn",
-      "label": "Created On",
-      "type": "date"
-    },
-    {
-      "key": "createdBy",
-      "label": "Created By",
-      "type": "text"
-    },
-    {
-      "key": "createdByDelegate",
-      "label": "Created By Delegate",
-      "type": "text"
-    },
-    {
-      "key": "modifiedOn",
-      "label": "Modified On",
-      "type": "date"
-    },
-    {
-      "key": "modifiedBy",
-      "label": "Modified By",
-      "type": "text"
-    },
-    {
-      "key": "modifiedByDelegate",
-      "label": "Modified By Delegate",
-      "type": "text"
-    },
-    {
-      "key": "importSequenceNumber",
-      "label": "Import Sequence Number",
-      "type": "number"
-    },
-    {
-      "key": "recordCreatedOn",
-      "label": "Record Created On",
-      "type": "date"
-    },
-    {
-      "key": "venue",
-      "label": "Venue",
-      "type": "text"
-    },
-    {
-      "key": "websiteSection",
-      "label": "Website Section",
-      "type": "lookup"
-    },
-    {
-      "key": "websiteType",
-      "label": "Website Type",
-      "type": "lookup"
-    },
-    {
-      "key": "websiteMeetings",
-      "label": "Website Meetings",
-      "type": "text"
-    },
-    {
-      "key": "appearsInWebsite",
+      "key": "new_appearsinwebsiteyn",
       "label": "Appears in Website Y/N",
       "type": "boolean"
     },
     {
-      "key": "city",
+      "key": "new_city",
       "label": "City",
       "type": "text"
     },
     {
-      "key": "country",
+      "key": "_new_country_value@OData.Community.Display.V1.FormattedValue",
       "label": "Country",
-      "type": "text"
+      "type": "lookup"
     },
     {
-      "key": "expertGroup",
-      "label": "Expert Group",
-      "type": "text"
-    },
-    {
-      "key": "meetingCategory",
-      "label": "Meeting Category",
-      "type": "text"
-    },
-    {
-      "key": "meetingCode",
-      "label": "Meeting Code",
-      "type": "text"
-    },
-    {
-      "key": "meetingTitle",
-      "label": "Meeting Title",
-      "type": "text"
-    },
-    {
-      "key": "meetingType",
-      "label": "Meeting Type",
-      "type": "text"
-    },
-    {
-      "key": "session",
-      "label": "Session",
-      "type": "text"
-    },
-    {
-      "key": "meetingStartDate",
-      "label": "Meeting Start Date",
+      "key": "createdon@OData.Community.Display.V1.FormattedValue",
+      "label": "Created On",
       "type": "date"
     },
     {
-      "key": "meetingEndDate",
+      "key": "_createdby_value@OData.Community.Display.V1.FormattedValue",
+      "label": "Created By",
+      "type": "lookup"
+    },
+    {
+      "key": "modifiedon@OData.Community.Display.V1.FormattedValue",
+      "label": "Modified On",
+      "type": "date"
+    },
+    {
+      "key": "_modifiedby_value@OData.Community.Display.V1.FormattedValue",
+      "label": "Modified By",
+      "type": "lookup"
+    },
+    {
+      "key": "_new_expertgroup_value@OData.Community.Display.V1.FormattedValue",
+      "label": "Expert Group",
+      "type": "lookup"
+    },
+    {
+      "key": "_new_meetingcategory_value@OData.Community.Display.V1.FormattedValue",
+      "label": "Meeting Category",
+      "type": "lookup"
+    },
+    {
+      "key": "_new_meetingcode_value@OData.Community.Display.V1.FormattedValue",
+      "label": "Meeting Code",
+      "type": "lookup"
+    },
+    {
+      "key": "new_meetingenddate@OData.Community.Display.V1.FormattedValue",
       "label": "Meeting End Date",
       "type": "date"
     },
     {
-      "key": "pkWebsiteMeetingEntry",
-      "label": "PK_Website_Meeting_Entry",
+      "key": "new_meetingstartdate@OData.Community.Display.V1.FormattedValue",
+      "label": "Meeting Start Date",
+      "type": "date"
+    },
+    {
+      "key": "new_meetingtitle",
+      "label": "Meeting Title",
       "type": "text"
     },
     {
-      "key": "publicWebsiteUrl",
-      "label": "Public website URL",
-      "type": "url"
+      "key": "new_meetingtypes@OData.Community.Display.V1.FormattedValue",
+      "label": "Meeting Type",
+      "type": "choice"
     },
     {
-      "key": "publicReportUrlEn",
-      "label": "Public Report URL (EN)",
-      "type": "url"
+      "key": "new_venue",
+      "label": "Venue",
+      "type": "text"
     },
     {
-      "key": "publicReportUrlFr",
-      "label": "Public Report URL (FR)",
-      "type": "url"
-    },
-    {
-      "key": "publicReportUrlAr",
+      "key": "new_publicreporturlar",
       "label": "Public Report URL (AR)",
       "type": "url"
     },
     {
-      "key": "publicReportUrlSp",
+      "key": "new_publicreporturlen",
+      "label": "Public Report URL (EN)",
+      "type": "url"
+    },
+    {
+      "key": "new_publicreporturlfr",
+      "label": "Public Report URL (FR)",
+      "type": "url"
+    },
+    {
+      "key": "new_publicreporturlsp",
       "label": "Public Report URL (SP)",
       "type": "url"
     },
     {
-      "key": "websiteLinkStayClickableUponExpiration",
+      "key": "new_publicwebsiteurl",
+      "label": "Public website URL",
+      "type": "url"
+    },
+    {
+      "key": "_new_session_value@OData.Community.Display.V1.FormattedValue",
+      "label": "Session",
+      "type": "lookup"
+    },
+    {
+      "key": "statecode@OData.Community.Display.V1.FormattedValue",
+      "label": "Status",
+      "type": "choice"
+    },
+    {
+      "key": "statuscode@OData.Community.Display.V1.FormattedValue",
+      "label": "Status Reason",
+      "type": "choice"
+    },
+    {
+      "key": "new_websitelinkstayclickableuponexpiration",
       "label": "Website link stay clickable upon expiration",
       "type": "boolean"
     },
     {
-      "key": "status",
-      "label": "Status",
+      "key": "_new_websitesection_value@OData.Community.Display.V1.FormattedValue",
+      "label": "Website Section",
+      "type": "lookup"
+    },
+    {
+      "key": "_new_websitetype_value@OData.Community.Display.V1.FormattedValue",
+      "label": "Website Type",
+      "type": "lookup"
+    },
+    {
+      "key": "new_websitemeetingid",
+      "label": "Website_Meetings",
       "type": "text"
     },
     {
-      "key": "statusReason",
-      "label": "Status Reason",
+      "key": "new_website_meetingsid",
+      "label": "Website Meetings Dataverse Row ID",
       "type": "text"
     },
     {
-      "key": "owner",
-      "label": "Owner",
-      "type": "lookup"
-    },
-    {
-      "key": "owningBusinessUnit",
-      "label": "Owning Business Unit",
-      "type": "lookup"
-    },
-    {
-      "key": "owningTeam",
-      "label": "Owning Team",
-      "type": "lookup"
-    },
-    {
-      "key": "owningUser",
-      "label": "Owning User",
-      "type": "lookup"
-    },
-    {
-      "key": "timeZoneRuleVersionNumber",
-      "label": "Time Zone Rule Version Number",
-      "type": "number"
-    },
-    {
-      "key": "utcConversionTimeZoneCode",
-      "label": "UTC Conversion Time Zone Code",
-      "type": "number"
-    },
-    {
-      "key": "versionNumber",
+      "key": "versionnumber",
       "label": "Version Number",
       "type": "number"
     }
   ],
-  "rows": [
-    {
-      "createdOn": "08/06/2026 10:42",
-      "createdBy": "Christina Raftoudi",
-      "createdByDelegate": "",
-      "modifiedOn": "08/06/2026 10:42",
-      "modifiedBy": "Christina Raftoudi",
-      "modifiedByDelegate": "",
-      "importSequenceNumber": "",
-      "recordCreatedOn": "",
-      "venue": "FAO HQ",
-      "websiteSection": "",
-      "websiteType": "",
-      "websiteMeetings": "",
-      "appearsInWebsite": "",
-      "city": "Rome",
-      "country": "",
-      "expertGroup": "",
-      "meetingCategory": "",
-      "meetingCode": "",
-      "meetingTitle": "",
-      "meetingType": "",
-      "session": "",
-      "meetingStartDate": "",
-      "meetingEndDate": "",
-      "pkWebsiteMeetingEntry": "",
-      "publicWebsiteUrl": "",
-      "publicReportUrlEn": "",
-      "publicReportUrlFr": "",
-      "publicReportUrlAr": "",
-      "publicReportUrlSp": "",
-      "websiteLinkStayClickableUponExpiration": "",
-      "status": "Active",
-      "statusReason": "Active",
-      "owner": "Christina Raftoudi",
-      "owningBusinessUnit": "org02cf0e5c",
-      "owningTeam": "",
-      "owningUser": "",
-      "timeZoneRuleVersionNumber": "0",
-      "utcConversionTimeZoneCode": "",
-      "versionNumber": "44132388"
-    },
-    {
-      "createdOn": "08/06/2026 10:12",
-      "createdBy": "Christina Raftoudi",
-      "createdByDelegate": "",
-      "modifiedOn": "08/06/2026 10:36",
-      "modifiedBy": "Chiara Baffoni",
-      "modifiedByDelegate": "Chiara Baffoni",
-      "importSequenceNumber": "",
-      "recordCreatedOn": "",
-      "venue": "FAO HQ",
-      "websiteSection": "",
-      "websiteType": "",
-      "websiteMeetings": "",
-      "appearsInWebsite": "",
-      "city": "Rome",
-      "country": "",
-      "expertGroup": "",
-      "meetingCategory": "",
-      "meetingCode": "",
-      "meetingTitle": "",
-      "meetingType": "",
-      "session": "",
-      "meetingStartDate": "",
-      "meetingEndDate": "",
-      "pkWebsiteMeetingEntry": "",
-      "publicWebsiteUrl": "",
-      "publicReportUrlEn": "",
-      "publicReportUrlFr": "",
-      "publicReportUrlAr": "",
-      "publicReportUrlSp": "",
-      "websiteLinkStayClickableUponExpiration": "",
-      "status": "Active",
-      "statusReason": "Active",
-      "owner": "Christina Raftoudi",
-      "owningBusinessUnit": "org02cf0e5c",
-      "owningTeam": "",
-      "owningUser": "",
-      "timeZoneRuleVersionNumber": "0",
-      "utcConversionTimeZoneCode": "",
-      "versionNumber": "44132360"
-    },
-    {
-      "createdOn": "08/06/2026 10:32",
-      "createdBy": "Christina Raftoudi",
-      "createdByDelegate": "",
-      "modifiedOn": "08/06/2026 10:32",
-      "modifiedBy": "Christina Raftoudi",
-      "modifiedByDelegate": "",
-      "importSequenceNumber": "",
-      "recordCreatedOn": "",
-      "venue": "NEA",
-      "websiteSection": "",
-      "websiteType": "",
-      "websiteMeetings": "",
-      "appearsInWebsite": "",
-      "city": "Batumi",
-      "country": "",
-      "expertGroup": "",
-      "meetingCategory": "",
-      "meetingCode": "",
-      "meetingTitle": "",
-      "meetingType": "",
-      "session": "",
-      "meetingStartDate": "",
-      "meetingEndDate": "",
-      "pkWebsiteMeetingEntry": "",
-      "publicWebsiteUrl": "",
-      "publicReportUrlEn": "",
-      "publicReportUrlFr": "",
-      "publicReportUrlAr": "",
-      "publicReportUrlSp": "",
-      "websiteLinkStayClickableUponExpiration": "",
-      "status": "Active",
-      "statusReason": "Active",
-      "owner": "Christina Raftoudi",
-      "owningBusinessUnit": "org02cf0e5c",
-      "owningTeam": "",
-      "owningUser": "",
-      "timeZoneRuleVersionNumber": "0",
-      "utcConversionTimeZoneCode": "",
-      "versionNumber": "44132327"
-    },
-    {
-      "createdOn": "08/06/2026 10:29",
-      "createdBy": "Christina Raftoudi",
-      "createdByDelegate": "",
-      "modifiedOn": "08/06/2026 10:29",
-      "modifiedBy": "Christina Raftoudi",
-      "modifiedByDelegate": "",
-      "importSequenceNumber": "",
-      "recordCreatedOn": "",
-      "venue": "FAO HQ",
-      "websiteSection": "",
-      "websiteType": "",
-      "websiteMeetings": "",
-      "appearsInWebsite": "",
-      "city": "Rome",
-      "country": "",
-      "expertGroup": "",
-      "meetingCategory": "",
-      "meetingCode": "",
-      "meetingTitle": "",
-      "meetingType": "",
-      "session": "",
-      "meetingStartDate": "",
-      "meetingEndDate": "",
-      "pkWebsiteMeetingEntry": "",
-      "publicWebsiteUrl": "",
-      "publicReportUrlEn": "",
-      "publicReportUrlFr": "",
-      "publicReportUrlAr": "",
-      "publicReportUrlSp": "",
-      "websiteLinkStayClickableUponExpiration": "",
-      "status": "Active",
-      "statusReason": "Active",
-      "owner": "Christina Raftoudi",
-      "owningBusinessUnit": "org02cf0e5c",
-      "owningTeam": "",
-      "owningUser": "",
-      "timeZoneRuleVersionNumber": "0",
-      "utcConversionTimeZoneCode": "",
-      "versionNumber": "44132308"
-    },
-    {
-      "createdOn": "08/06/2026 10:22",
-      "createdBy": "Christina Raftoudi",
-      "createdByDelegate": "",
-      "modifiedOn": "08/06/2026 10:22",
-      "modifiedBy": "Christina Raftoudi",
-      "modifiedByDelegate": "",
-      "importSequenceNumber": "",
-      "recordCreatedOn": "",
-      "venue": "FAO HQ",
-      "websiteSection": "",
-      "websiteType": "",
-      "websiteMeetings": "",
-      "appearsInWebsite": "",
-      "city": "Rome",
-      "country": "",
-      "expertGroup": "",
-      "meetingCategory": "",
-      "meetingCode": "",
-      "meetingTitle": "",
-      "meetingType": "",
-      "session": "",
-      "meetingStartDate": "",
-      "meetingEndDate": "",
-      "pkWebsiteMeetingEntry": "",
-      "publicWebsiteUrl": "",
-      "publicReportUrlEn": "",
-      "publicReportUrlFr": "",
-      "publicReportUrlAr": "",
-      "publicReportUrlSp": "",
-      "websiteLinkStayClickableUponExpiration": "",
-      "status": "Active",
-      "statusReason": "Active",
-      "owner": "Christina Raftoudi",
-      "owningBusinessUnit": "org02cf0e5c",
-      "owningTeam": "",
-      "owningUser": "",
-      "timeZoneRuleVersionNumber": "0",
-      "utcConversionTimeZoneCode": "",
-      "versionNumber": "44132227"
-    },
-    {
-      "createdOn": "08/06/2026 10:19",
-      "createdBy": "Christina Raftoudi",
-      "createdByDelegate": "",
-      "modifiedOn": "08/06/2026 10:19",
-      "modifiedBy": "Christina Raftoudi",
-      "modifiedByDelegate": "",
-      "importSequenceNumber": "",
-      "recordCreatedOn": "",
-      "venue": "-",
-      "websiteSection": "",
-      "websiteType": "",
-      "websiteMeetings": "",
-      "appearsInWebsite": "",
-      "city": "Rhodes",
-      "country": "",
-      "expertGroup": "",
-      "meetingCategory": "",
-      "meetingCode": "",
-      "meetingTitle": "",
-      "meetingType": "",
-      "session": "",
-      "meetingStartDate": "",
-      "meetingEndDate": "",
-      "pkWebsiteMeetingEntry": "",
-      "publicWebsiteUrl": "",
-      "publicReportUrlEn": "",
-      "publicReportUrlFr": "",
-      "publicReportUrlAr": "",
-      "publicReportUrlSp": "",
-      "websiteLinkStayClickableUponExpiration": "",
-      "status": "Active",
-      "statusReason": "Active",
-      "owner": "Christina Raftoudi",
-      "owningBusinessUnit": "org02cf0e5c",
-      "owningTeam": "",
-      "owningUser": "",
-      "timeZoneRuleVersionNumber": "0",
-      "utcConversionTimeZoneCode": "",
-      "versionNumber": "44132212"
-    },
-    {
-      "createdOn": "08/06/2026 10:15",
-      "createdBy": "Christina Raftoudi",
-      "createdByDelegate": "",
-      "modifiedOn": "08/06/2026 10:15",
-      "modifiedBy": "Christina Raftoudi",
-      "modifiedByDelegate": "",
-      "importSequenceNumber": "",
-      "recordCreatedOn": "",
-      "venue": "SUMAE - Central Fisheries Research Institute",
-      "websiteSection": "",
-      "websiteType": "",
-      "websiteMeetings": "",
-      "appearsInWebsite": "",
-      "city": "Trabzon",
-      "country": "",
-      "expertGroup": "",
-      "meetingCategory": "",
-      "meetingCode": "",
-      "meetingTitle": "",
-      "meetingType": "",
-      "session": "",
-      "meetingStartDate": "",
-      "meetingEndDate": "",
-      "pkWebsiteMeetingEntry": "",
-      "publicWebsiteUrl": "",
-      "publicReportUrlEn": "",
-      "publicReportUrlFr": "",
-      "publicReportUrlAr": "",
-      "publicReportUrlSp": "",
-      "websiteLinkStayClickableUponExpiration": "",
-      "status": "Active",
-      "statusReason": "Active",
-      "owner": "Christina Raftoudi",
-      "owningBusinessUnit": "org02cf0e5c",
-      "owningTeam": "",
-      "owningUser": "",
-      "timeZoneRuleVersionNumber": "0",
-      "utcConversionTimeZoneCode": "",
-      "versionNumber": "44131756"
-    },
-    {
-      "createdOn": "04/06/2026 11:45",
-      "createdBy": "Christina Raftoudi",
-      "createdByDelegate": "",
-      "modifiedOn": "08/06/2026 09:53",
-      "modifiedBy": "Chiara Baffoni",
-      "modifiedByDelegate": "Chiara Baffoni",
-      "importSequenceNumber": "",
-      "recordCreatedOn": "",
-      "venue": "FAO HQ",
-      "websiteSection": "",
-      "websiteType": "",
-      "websiteMeetings": "",
-      "appearsInWebsite": "",
-      "city": "Rome",
-      "country": "",
-      "expertGroup": "",
-      "meetingCategory": "",
-      "meetingCode": "",
-      "meetingTitle": "",
-      "meetingType": "",
-      "session": "",
-      "meetingStartDate": "",
-      "meetingEndDate": "",
-      "pkWebsiteMeetingEntry": "",
-      "publicWebsiteUrl": "",
-      "publicReportUrlEn": "",
-      "publicReportUrlFr": "",
-      "publicReportUrlAr": "",
-      "publicReportUrlSp": "",
-      "websiteLinkStayClickableUponExpiration": "",
-      "status": "Active",
-      "statusReason": "Active",
-      "owner": "Christina Raftoudi",
-      "owningBusinessUnit": "org02cf0e5c",
-      "owningTeam": "",
-      "owningUser": "",
-      "timeZoneRuleVersionNumber": "0",
-      "utcConversionTimeZoneCode": "",
-      "versionNumber": "44131637"
-    }
-  ]
+  "rows": "[{\"@odata.etag\":\"W/\\\"44132388\\\"\",\"new_appearsinwebsiteyn@OData.Community.Display.V1.FormattedValue\":\"No\",\"new_appearsinwebsiteyn\":false,\"new_meetingenddate@OData.Community.Display.V1.FormattedValue\":\"6/25/2026\",\"new_meetingenddate\":\"2026-06-25T00:00:00Z\",\"statuscode@OData.Community.Display.V1.FormattedValue\":\"Active\",\"statuscode\":1,\"_createdby_value@OData.Community.Display.V1.FormattedValue\":\"Christina Raftoudi\",\"_createdby_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"systemuser\",\"_createdby_value\":\"68c7c513-bf1d-ef11-840a-6045bd971244\",\"_owninguser_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"systemuser\",\"_owninguser_value\":\"68c7c513-bf1d-ef11-840a-6045bd971244\",\"_modifiedby_value@OData.Community.Display.V1.FormattedValue\":\"Christina Raftoudi\",\"_modifiedby_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"systemuser\",\"_modifiedby_value\":\"68c7c513-bf1d-ef11-840a-6045bd971244\",\"new_meetingstartdate@OData.Community.Display.V1.FormattedValue\":\"6/22/2026\",\"new_meetingstartdate\":\"2026-06-22T00:00:00Z\",\"new_city\":\"Rome\",\"_ownerid_value@OData.Community.Display.V1.FormattedValue\":\"Christina Raftoudi\",\"_ownerid_value@Microsoft.Dynamics.CRM.associatednavigationproperty\":\"ownerid\",\"_ownerid_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"systemuser\",\"_ownerid_value\":\"68c7c513-bf1d-ef11-840a-6045bd971244\",\"modifiedon@OData.Community.Display.V1.FormattedValue\":\"6/8/2026 12:42 PM\",\"modifiedon\":\"2026-06-08T10:42:42Z\",\"new_websitemeetingid\":\"WEB-1007\",\"_owningbusinessunit_value@OData.Community.Display.V1.FormattedValue\":\"org02cf0e5c\",\"_owningbusinessunit_value@Microsoft.Dynamics.CRM.associatednavigationproperty\":\"owningbusinessunit\",\"_owningbusinessunit_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"businessunit\",\"_owningbusinessunit_value\":\"5787272b-71ba-eb11-8235-000d3aad2dec\",\"new_website_meetingsid\":\"0c9658c3-2663-f111-a825-6045bd8d8634\",\"_new_country_value@OData.Community.Display.V1.FormattedValue\":\"Italy\",\"_new_country_value@Microsoft.Dynamics.CRM.associatednavigationproperty\":\"new_Country\",\"_new_country_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"new_country\",\"_new_country_value\":\"c6e9b9f0-2616-f111-8341-6045bd87572e\",\"_new_meetingcode_value@OData.Community.Display.V1.FormattedValue\":\"MTG-1030\",\"_new_meetingcode_value@Microsoft.Dynamics.CRM.associatednavigationproperty\":\"new_MeetingCode\",\"_new_meetingcode_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"new_meeting_transactional_data\",\"_new_meetingcode_value\":\"15c8d751-2663-f111-a826-6045bd87572e\",\"statecode@OData.Community.Display.V1.FormattedValue\":\"Active\",\"statecode\":0,\"new_meetingtitle\":\"Scientific Advisory Committee on Fisheries (SAC) - 267h Session\",\"_new_expertgroup_value@OData.Community.Display.V1.FormattedValue\":\"SAC Statutory Session\",\"_new_expertgroup_value@Microsoft.Dynamics.CRM.associatednavigationproperty\":\"new_ExpertGroup\",\"_new_expertgroup_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"new_expertgroup\",\"_new_expertgroup_value\":\"2ccb631c-4028-f111-8341-000d3a281ed5\",\"new_websitelinkstayclickableuponexpiration@OData.Community.Display.V1.FormattedValue\":\"No\",\"new_websitelinkstayclickableuponexpiration\":false,\"timezoneruleversionnumber@OData.Community.Display.V1.FormattedValue\":\"0\",\"timezoneruleversionnumber\":0,\"_new_meetingcategory_value@OData.Community.Display.V1.FormattedValue\":\"Fisheries (Mediterranean - SAC)\",\"_new_meetingcategory_value@Microsoft.Dynamics.CRM.associatednavigationproperty\":\"new_MeetingCategory\",\"_new_meetingcategory_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"cr662_meeting_category\",\"_new_meetingcategory_value\":\"3b390f03-c015-f111-8341-6045bd8a5c65\",\"new_meetingtypes@OData.Community.Display.V1.FormattedValue\":\"GFCM Meetings\",\"new_meetingtypes\":100000000,\"createdon@OData.Community.Display.V1.FormattedValue\":\"6/8/2026 12:42 PM\",\"createdon\":\"2026-06-08T10:42:42Z\",\"new_venue\":\"FAO HQ\",\"versionnumber@OData.Community.Display.V1.FormattedValue\":\"44,132,388\",\"versionnumber\":44132388},{\"@odata.etag\":\"W/\\\"44132360\\\"\",\"new_appearsinwebsiteyn@OData.Community.Display.V1.FormattedValue\":\"No\",\"new_appearsinwebsiteyn\":false,\"new_meetingenddate@OData.Community.Display.V1.FormattedValue\":\"6/25/2026\",\"new_meetingenddate\":\"2026-06-25T00:00:00Z\",\"_new_session_value@OData.Community.Display.V1.FormattedValue\":\"Not Applicable\",\"_new_session_value@Microsoft.Dynamics.CRM.associatednavigationproperty\":\"new_Session\",\"_new_session_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"new_session\",\"_new_session_value\":\"9c05dbf6-2616-f111-8341-6045bd87572e\",\"statuscode@OData.Community.Display.V1.FormattedValue\":\"Active\",\"statuscode\":1,\"_createdby_value@OData.Community.Display.V1.FormattedValue\":\"Christina Raftoudi\",\"_createdby_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"systemuser\",\"_createdby_value\":\"68c7c513-bf1d-ef11-840a-6045bd971244\",\"_owninguser_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"systemuser\",\"_owninguser_value\":\"68c7c513-bf1d-ef11-840a-6045bd971244\",\"_modifiedby_value@OData.Community.Display.V1.FormattedValue\":\"Chiara Baffoni\",\"_modifiedby_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"systemuser\",\"_modifiedby_value\":\"c9c26a1f-0acd-ef11-8ee9-6045bd958ea9\",\"_new_websitesection_value@OData.Community.Display.V1.FormattedValue\":\"Main page\",\"_new_websitesection_value@Microsoft.Dynamics.CRM.associatednavigationproperty\":\"new_WebsiteSection\",\"_new_websitesection_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"new_website_sections\",\"_new_websitesection_value\":\"ffe9f425-ca5d-f111-a825-70a8a563f598\",\"new_meetingstartdate@OData.Community.Display.V1.FormattedValue\":\"6/22/2026\",\"new_meetingstartdate\":\"2026-06-22T00:00:00Z\",\"new_city\":\"Rome\",\"_modifiedonbehalfby_value@OData.Community.Display.V1.FormattedValue\":\"Chiara Baffoni\",\"_modifiedonbehalfby_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"systemuser\",\"_modifiedonbehalfby_value\":\"c9c26a1f-0acd-ef11-8ee9-6045bd958ea9\",\"_ownerid_value@OData.Community.Display.V1.FormattedValue\":\"Christina Raftoudi\",\"_ownerid_value@Microsoft.Dynamics.CRM.associatednavigationproperty\":\"ownerid\",\"_ownerid_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"systemuser\",\"_ownerid_value\":\"68c7c513-bf1d-ef11-840a-6045bd971244\",\"modifiedon@OData.Community.Display.V1.FormattedValue\":\"6/8/2026 12:36 PM\",\"modifiedon\":\"2026-06-08T10:36:32Z\",\"new_websitemeetingid\":\"WEB-1001\",\"_owningbusinessunit_value@OData.Community.Display.V1.FormattedValue\":\"org02cf0e5c\",\"_owningbusinessunit_value@Microsoft.Dynamics.CRM.associatednavigationproperty\":\"owningbusinessunit\",\"_owningbusinessunit_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"businessunit\",\"_owningbusinessunit_value\":\"5787272b-71ba-eb11-8235-000d3aad2dec\",\"new_website_meetingsid\":\"fc0f9295-2263-f111-a825-6045bd8d8634\",\"_new_country_value@OData.Community.Display.V1.FormattedValue\":\"Italy\",\"_new_country_value@Microsoft.Dynamics.CRM.associatednavigationproperty\":\"new_Country\",\"_new_country_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"new_country\",\"_new_country_value\":\"c6e9b9f0-2616-f111-8341-6045bd87572e\",\"statecode@OData.Community.Display.V1.FormattedValue\":\"Active\",\"statecode\":0,\"new_meetingtitle\":\"Scientific Advisory Committee on Fisheries (SAC) - 26th Session\",\"_new_expertgroup_value@OData.Community.Display.V1.FormattedValue\":\"SAC Statutory Session\",\"_new_expertgroup_value@Microsoft.Dynamics.CRM.associatednavigationproperty\":\"new_ExpertGroup\",\"_new_expertgroup_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"new_expertgroup\",\"_new_expertgroup_value\":\"2ccb631c-4028-f111-8341-000d3a281ed5\",\"new_websitelinkstayclickableuponexpiration@OData.Community.Display.V1.FormattedValue\":\"Yes\",\"new_websitelinkstayclickableuponexpiration\":true,\"timezoneruleversionnumber@OData.Community.Display.V1.FormattedValue\":\"0\",\"timezoneruleversionnumber\":0,\"_new_meetingcategory_value@OData.Community.Display.V1.FormattedValue\":\"Fisheries (Mediterranean - SAC)\",\"_new_meetingcategory_value@Microsoft.Dynamics.CRM.associatednavigationproperty\":\"new_MeetingCategory\",\"_new_meetingcategory_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"cr662_meeting_category\",\"_new_meetingcategory_value\":\"3b390f03-c015-f111-8341-6045bd8a5c65\",\"new_meetingtypes@OData.Community.Display.V1.FormattedValue\":\"GFCM Meetings\",\"new_meetingtypes\":100000000,\"createdon@OData.Community.Display.V1.FormattedValue\":\"6/8/2026 12:12 PM\",\"createdon\":\"2026-06-08T10:12:43Z\",\"new_venue\":\"FAO HQ\",\"versionnumber@OData.Community.Display.V1.FormattedValue\":\"44,132,360\",\"versionnumber\":44132360},{\"@odata.etag\":\"W/\\\"44132327\\\"\",\"new_appearsinwebsiteyn@OData.Community.Display.V1.FormattedValue\":\"No\",\"new_appearsinwebsiteyn\":false,\"new_meetingenddate@OData.Community.Display.V1.FormattedValue\":\"6/12/2026\",\"new_meetingenddate\":\"2026-06-12T00:00:00Z\",\"_new_session_value@OData.Community.Display.V1.FormattedValue\":\"Session BS\",\"_new_session_value@Microsoft.Dynamics.CRM.associatednavigationproperty\":\"new_Session\",\"_new_session_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"new_session\",\"_new_session_value\":\"a305dbf6-2616-f111-8341-6045bd87572e\",\"statuscode@OData.Community.Display.V1.FormattedValue\":\"Active\",\"statuscode\":1,\"_createdby_value@OData.Community.Display.V1.FormattedValue\":\"Christina Raftoudi\",\"_createdby_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"systemuser\",\"_createdby_value\":\"68c7c513-bf1d-ef11-840a-6045bd971244\",\"_owninguser_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"systemuser\",\"_owninguser_value\":\"68c7c513-bf1d-ef11-840a-6045bd971244\",\"_modifiedby_value@OData.Community.Display.V1.FormattedValue\":\"Christina Raftoudi\",\"_modifiedby_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"systemuser\",\"_modifiedby_value\":\"68c7c513-bf1d-ef11-840a-6045bd971244\",\"new_meetingstartdate@OData.Community.Display.V1.FormattedValue\":\"6/8/2026\",\"new_meetingstartdate\":\"2026-06-08T00:00:00Z\",\"new_city\":\"Batumi\",\"_ownerid_value@OData.Community.Display.V1.FormattedValue\":\"Christina Raftoudi\",\"_ownerid_value@Microsoft.Dynamics.CRM.associatednavigationproperty\":\"ownerid\",\"_ownerid_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"systemuser\",\"_ownerid_value\":\"68c7c513-bf1d-ef11-840a-6045bd971244\",\"modifiedon@OData.Community.Display.V1.FormattedValue\":\"6/8/2026 12:32 PM\",\"modifiedon\":\"2026-06-08T10:32:22Z\",\"new_websitemeetingid\":\"WEB-1006\",\"_owningbusinessunit_value@OData.Community.Display.V1.FormattedValue\":\"org02cf0e5c\",\"_owningbusinessunit_value@Microsoft.Dynamics.CRM.associatednavigationproperty\":\"owningbusinessunit\",\"_owningbusinessunit_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"businessunit\",\"_owningbusinessunit_value\":\"5787272b-71ba-eb11-8235-000d3aad2dec\",\"new_website_meetingsid\":\"9af7b553-2563-f111-a826-6045bd87572e\",\"_new_country_value@OData.Community.Display.V1.FormattedValue\":\"Georgia\",\"_new_country_value@Microsoft.Dynamics.CRM.associatednavigationproperty\":\"new_Country\",\"_new_country_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"new_country\",\"_new_country_value\":\"de25a5f4-2616-f111-8341-6045bd879080\",\"_new_meetingcode_value@OData.Community.Display.V1.FormattedValue\":\"MTG-1029\",\"_new_meetingcode_value@Microsoft.Dynamics.CRM.associatednavigationproperty\":\"new_MeetingCode\",\"_new_meetingcode_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"new_meeting_transactional_data\",\"_new_meetingcode_value\":\"edb6d70a-2563-f111-a826-6045bd87572e\",\"statecode@OData.Community.Display.V1.FormattedValue\":\"Active\",\"statecode\":0,\"new_meetingtitle\":\"Data Preparation Meeting on Stock Assessment for the Black Sea (GSA 29)\\t(SGSABS)\",\"_new_expertgroup_value@OData.Community.Display.V1.FormattedValue\":\"WKDATAPREP\",\"_new_expertgroup_value@Microsoft.Dynamics.CRM.associatednavigationproperty\":\"new_ExpertGroup\",\"_new_expertgroup_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"new_expertgroup\",\"_new_expertgroup_value\":\"770201a9-c015-f111-8341-6045bd87572e\",\"new_websitelinkstayclickableuponexpiration@OData.Community.Display.V1.FormattedValue\":\"No\",\"new_websitelinkstayclickableuponexpiration\":false,\"timezoneruleversionnumber@OData.Community.Display.V1.FormattedValue\":\"0\",\"timezoneruleversionnumber\":0,\"_new_meetingcategory_value@OData.Community.Display.V1.FormattedValue\":\"Fisheries (Mediterranean - SAC)\",\"_new_meetingcategory_value@Microsoft.Dynamics.CRM.associatednavigationproperty\":\"new_MeetingCategory\",\"_new_meetingcategory_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"cr662_meeting_category\",\"_new_meetingcategory_value\":\"3b390f03-c015-f111-8341-6045bd8a5c65\",\"new_meetingtypes@OData.Community.Display.V1.FormattedValue\":\"GFCM Meetings\",\"new_meetingtypes\":100000000,\"createdon@OData.Community.Display.V1.FormattedValue\":\"6/8/2026 12:32 PM\",\"createdon\":\"2026-06-08T10:32:22Z\",\"new_venue\":\"NEA\",\"versionnumber@OData.Community.Display.V1.FormattedValue\":\"44,132,327\",\"versionnumber\":44132327},{\"@odata.etag\":\"W/\\\"44132308\\\"\",\"new_appearsinwebsiteyn@OData.Community.Display.V1.FormattedValue\":\"No\",\"new_appearsinwebsiteyn\":false,\"new_meetingenddate@OData.Community.Display.V1.FormattedValue\":\"4/23/2026\",\"new_meetingenddate\":\"2026-04-23T00:00:00Z\",\"statuscode@OData.Community.Display.V1.FormattedValue\":\"Active\",\"statuscode\":1,\"_createdby_value@OData.Community.Display.V1.FormattedValue\":\"Christina Raftoudi\",\"_createdby_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"systemuser\",\"_createdby_value\":\"68c7c513-bf1d-ef11-840a-6045bd971244\",\"_owninguser_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"systemuser\",\"_owninguser_value\":\"68c7c513-bf1d-ef11-840a-6045bd971244\",\"_modifiedby_value@OData.Community.Display.V1.FormattedValue\":\"Christina Raftoudi\",\"_modifiedby_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"systemuser\",\"_modifiedby_value\":\"68c7c513-bf1d-ef11-840a-6045bd971244\",\"new_meetingstartdate@OData.Community.Display.V1.FormattedValue\":\"4/21/2026\",\"new_meetingstartdate\":\"2026-04-21T00:00:00Z\",\"new_city\":\"Rome\",\"_ownerid_value@OData.Community.Display.V1.FormattedValue\":\"Christina Raftoudi\",\"_ownerid_value@Microsoft.Dynamics.CRM.associatednavigationproperty\":\"ownerid\",\"_ownerid_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"systemuser\",\"_ownerid_value\":\"68c7c513-bf1d-ef11-840a-6045bd971244\",\"modifiedon@OData.Community.Display.V1.FormattedValue\":\"6/8/2026 12:29 PM\",\"modifiedon\":\"2026-06-08T10:29:07Z\",\"new_websitemeetingid\":\"WEB-1005\",\"_owningbusinessunit_value@OData.Community.Display.V1.FormattedValue\":\"org02cf0e5c\",\"_owningbusinessunit_value@Microsoft.Dynamics.CRM.associatednavigationproperty\":\"owningbusinessunit\",\"_owningbusinessunit_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"businessunit\",\"_owningbusinessunit_value\":\"5787272b-71ba-eb11-8235-000d3aad2dec\",\"new_website_meetingsid\":\"d2b81fdd-2463-f111-a825-6045bd8d8634\",\"_new_country_value@OData.Community.Display.V1.FormattedValue\":\"Italy\",\"_new_country_value@Microsoft.Dynamics.CRM.associatednavigationproperty\":\"new_Country\",\"_new_country_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"new_country\",\"_new_country_value\":\"c6e9b9f0-2616-f111-8341-6045bd87572e\",\"_new_meetingcode_value@OData.Community.Display.V1.FormattedValue\":\"MTG-1028\",\"_new_meetingcode_value@Microsoft.Dynamics.CRM.associatednavigationproperty\":\"new_MeetingCode\",\"_new_meetingcode_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"new_meeting_transactional_data\",\"_new_meetingcode_value\":\"cde0908c-2463-f111-a826-6045bd87572e\",\"statecode@OData.Community.Display.V1.FormattedValue\":\"Active\",\"statecode\":0,\"new_meetingtitle\":\"Subregional Committee for the Central Mediterranean (SRC-CM)\",\"_new_expertgroup_value@OData.Community.Display.V1.FormattedValue\":\"SRC-CM\",\"_new_expertgroup_value@Microsoft.Dynamics.CRM.associatednavigationproperty\":\"new_ExpertGroup\",\"_new_expertgroup_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"new_expertgroup\",\"_new_expertgroup_value\":\"6a0201a9-c015-f111-8341-6045bd87572e\",\"new_websitelinkstayclickableuponexpiration@OData.Community.Display.V1.FormattedValue\":\"No\",\"new_websitelinkstayclickableuponexpiration\":false,\"timezoneruleversionnumber@OData.Community.Display.V1.FormattedValue\":\"0\",\"timezoneruleversionnumber\":0,\"_new_meetingcategory_value@OData.Community.Display.V1.FormattedValue\":\"Fisheries (Mediterranean - SAC)\",\"_new_meetingcategory_value@Microsoft.Dynamics.CRM.associatednavigationproperty\":\"new_MeetingCategory\",\"_new_meetingcategory_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"cr662_meeting_category\",\"_new_meetingcategory_value\":\"3b390f03-c015-f111-8341-6045bd8a5c65\",\"new_meetingtypes@OData.Community.Display.V1.FormattedValue\":\"GFCM Meetings\",\"new_meetingtypes\":100000000,\"createdon@OData.Community.Display.V1.FormattedValue\":\"6/8/2026 12:29 PM\",\"createdon\":\"2026-06-08T10:29:07Z\",\"new_venue\":\"FAO HQ\",\"versionnumber@OData.Community.Display.V1.FormattedValue\":\"44,132,308\",\"versionnumber\":44132308},{\"@odata.etag\":\"W/\\\"44132227\\\"\",\"new_appearsinwebsiteyn@OData.Community.Display.V1.FormattedValue\":\"No\",\"new_appearsinwebsiteyn\":false,\"new_meetingenddate@OData.Community.Display.V1.FormattedValue\":\"10/30/2026\",\"new_meetingenddate\":\"2026-10-30T00:00:00Z\",\"statuscode@OData.Community.Display.V1.FormattedValue\":\"Active\",\"statuscode\":1,\"_createdby_value@OData.Community.Display.V1.FormattedValue\":\"Christina Raftoudi\",\"_createdby_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"systemuser\",\"_createdby_value\":\"68c7c513-bf1d-ef11-840a-6045bd971244\",\"_owninguser_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"systemuser\",\"_owninguser_value\":\"68c7c513-bf1d-ef11-840a-6045bd971244\",\"_modifiedby_value@OData.Community.Display.V1.FormattedValue\":\"Christina Raftoudi\",\"_modifiedby_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"systemuser\",\"_modifiedby_value\":\"68c7c513-bf1d-ef11-840a-6045bd971244\",\"new_meetingstartdate@OData.Community.Display.V1.FormattedValue\":\"10/26/2026\",\"new_meetingstartdate\":\"2026-10-26T00:00:00Z\",\"new_city\":\"Rome\",\"_ownerid_value@OData.Community.Display.V1.FormattedValue\":\"Christina Raftoudi\",\"_ownerid_value@Microsoft.Dynamics.CRM.associatednavigationproperty\":\"ownerid\",\"_ownerid_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"systemuser\",\"_ownerid_value\":\"68c7c513-bf1d-ef11-840a-6045bd971244\",\"modifiedon@OData.Community.Display.V1.FormattedValue\":\"6/8/2026 12:22 PM\",\"modifiedon\":\"2026-06-08T10:22:37Z\",\"new_websitemeetingid\":\"WEB-1004\",\"_owningbusinessunit_value@OData.Community.Display.V1.FormattedValue\":\"org02cf0e5c\",\"_owningbusinessunit_value@Microsoft.Dynamics.CRM.associatednavigationproperty\":\"owningbusinessunit\",\"_owningbusinessunit_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"businessunit\",\"_owningbusinessunit_value\":\"5787272b-71ba-eb11-8235-000d3aad2dec\",\"new_website_meetingsid\":\"1b53daf3-2363-f111-a826-6045bd8a5c65\",\"_new_country_value@OData.Community.Display.V1.FormattedValue\":\"Italy\",\"_new_country_value@Microsoft.Dynamics.CRM.associatednavigationproperty\":\"new_Country\",\"_new_country_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"new_country\",\"_new_country_value\":\"c6e9b9f0-2616-f111-8341-6045bd87572e\",\"_new_meetingcode_value@OData.Community.Display.V1.FormattedValue\":\"MTG-1027\",\"_new_meetingcode_value@Microsoft.Dynamics.CRM.associatednavigationproperty\":\"new_MeetingCode\",\"_new_meetingcode_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"new_meeting_transactional_data\",\"_new_meetingcode_value\":\"7e652057-2363-f111-a826-6045bd8a5c65\",\"statecode@OData.Community.Display.V1.FormattedValue\":\"Active\",\"statecode\":0,\"new_meetingtitle\":\"General Fisheries Council for the Mediterranean – 49th Session\",\"_new_expertgroup_value@OData.Community.Display.V1.FormattedValue\":\"GFCM Statutory Session\",\"_new_expertgroup_value@Microsoft.Dynamics.CRM.associatednavigationproperty\":\"new_ExpertGroup\",\"_new_expertgroup_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"new_expertgroup\",\"_new_expertgroup_value\":\"d3081ddd-3b28-f111-8341-000d3a281ed5\",\"new_websitelinkstayclickableuponexpiration@OData.Community.Display.V1.FormattedValue\":\"No\",\"new_websitelinkstayclickableuponexpiration\":false,\"timezoneruleversionnumber@OData.Community.Display.V1.FormattedValue\":\"0\",\"timezoneruleversionnumber\":0,\"_new_meetingcategory_value@OData.Community.Display.V1.FormattedValue\":\"Commission (GFCM)\",\"_new_meetingcategory_value@Microsoft.Dynamics.CRM.associatednavigationproperty\":\"new_MeetingCategory\",\"_new_meetingcategory_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"cr662_meeting_category\",\"_new_meetingcategory_value\":\"264d9c04-c015-f111-8341-00224882a531\",\"new_meetingtypes@OData.Community.Display.V1.FormattedValue\":\"GFCM Meetings\",\"new_meetingtypes\":100000000,\"createdon@OData.Community.Display.V1.FormattedValue\":\"6/8/2026 12:22 PM\",\"createdon\":\"2026-06-08T10:22:37Z\",\"new_venue\":\"FAO HQ\",\"versionnumber@OData.Community.Display.V1.FormattedValue\":\"44,132,227\",\"versionnumber\":44132227},{\"@odata.etag\":\"W/\\\"44132212\\\"\",\"new_appearsinwebsiteyn@OData.Community.Display.V1.FormattedValue\":\"No\",\"new_appearsinwebsiteyn\":false,\"new_meetingenddate@OData.Community.Display.V1.FormattedValue\":\"6/5/2026\",\"new_meetingenddate\":\"2026-06-05T00:00:00Z\",\"statuscode@OData.Community.Display.V1.FormattedValue\":\"Active\",\"statuscode\":1,\"_createdby_value@OData.Community.Display.V1.FormattedValue\":\"Christina Raftoudi\",\"_createdby_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"systemuser\",\"_createdby_value\":\"68c7c513-bf1d-ef11-840a-6045bd971244\",\"_owninguser_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"systemuser\",\"_owninguser_value\":\"68c7c513-bf1d-ef11-840a-6045bd971244\",\"_modifiedby_value@OData.Community.Display.V1.FormattedValue\":\"Christina Raftoudi\",\"_modifiedby_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"systemuser\",\"_modifiedby_value\":\"68c7c513-bf1d-ef11-840a-6045bd971244\",\"new_meetingstartdate@OData.Community.Display.V1.FormattedValue\":\"6/3/2026\",\"new_meetingstartdate\":\"2026-06-03T00:00:00Z\",\"new_city\":\"Rhodes\",\"_ownerid_value@OData.Community.Display.V1.FormattedValue\":\"Christina Raftoudi\",\"_ownerid_value@Microsoft.Dynamics.CRM.associatednavigationproperty\":\"ownerid\",\"_ownerid_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"systemuser\",\"_ownerid_value\":\"68c7c513-bf1d-ef11-840a-6045bd971244\",\"modifiedon@OData.Community.Display.V1.FormattedValue\":\"6/8/2026 12:19 PM\",\"modifiedon\":\"2026-06-08T10:19:05Z\",\"new_websitemeetingid\":\"WEB-1003\",\"_owningbusinessunit_value@OData.Community.Display.V1.FormattedValue\":\"org02cf0e5c\",\"_owningbusinessunit_value@Microsoft.Dynamics.CRM.associatednavigationproperty\":\"owningbusinessunit\",\"_owningbusinessunit_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"businessunit\",\"_owningbusinessunit_value\":\"5787272b-71ba-eb11-8235-000d3aad2dec\",\"new_website_meetingsid\":\"62d8cf77-2363-f111-a826-6045bd87572e\",\"_new_country_value@OData.Community.Display.V1.FormattedValue\":\"Greece\",\"_new_country_value@Microsoft.Dynamics.CRM.associatednavigationproperty\":\"new_Country\",\"_new_country_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"new_country\",\"_new_country_value\":\"cde9b9f0-2616-f111-8341-6045bd87572e\",\"_new_meetingcode_value@OData.Community.Display.V1.FormattedValue\":\"MTG-1026\",\"_new_meetingcode_value@Microsoft.Dynamics.CRM.associatednavigationproperty\":\"new_MeetingCode\",\"_new_meetingcode_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"new_meeting_transactional_data\",\"_new_meetingcode_value\":\"3a1b9df8-2263-f111-a826-6045bd87572e\",\"statecode@OData.Community.Display.V1.FormattedValue\":\"Active\",\"statecode\":0,\"new_meetingtitle\":\"Scientific Committee on Aquaculture (CAQ) - 14th session\",\"_new_expertgroup_value@OData.Community.Display.V1.FormattedValue\":\"CAQ Statutory Session\",\"_new_expertgroup_value@Microsoft.Dynamics.CRM.associatednavigationproperty\":\"new_ExpertGroup\",\"_new_expertgroup_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"new_expertgroup\",\"_new_expertgroup_value\":\"6b66b043-4028-f111-8341-000d3a281ed5\",\"new_websitelinkstayclickableuponexpiration@OData.Community.Display.V1.FormattedValue\":\"No\",\"new_websitelinkstayclickableuponexpiration\":false,\"timezoneruleversionnumber@OData.Community.Display.V1.FormattedValue\":\"0\",\"timezoneruleversionnumber\":0,\"_new_meetingcategory_value@OData.Community.Display.V1.FormattedValue\":\"Aquaculture (CAQ)\",\"_new_meetingcategory_value@Microsoft.Dynamics.CRM.associatednavigationproperty\":\"new_MeetingCategory\",\"_new_meetingcategory_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"cr662_meeting_category\",\"_new_meetingcategory_value\":\"2a4d9c04-c015-f111-8341-00224882a531\",\"new_meetingtypes@OData.Community.Display.V1.FormattedValue\":\"GFCM Meetings\",\"new_meetingtypes\":100000000,\"createdon@OData.Community.Display.V1.FormattedValue\":\"6/8/2026 12:19 PM\",\"createdon\":\"2026-06-08T10:19:05Z\",\"new_venue\":\"-\",\"versionnumber@OData.Community.Display.V1.FormattedValue\":\"44,132,212\",\"versionnumber\":44132212},{\"@odata.etag\":\"W/\\\"44131756\\\"\",\"new_appearsinwebsiteyn@OData.Community.Display.V1.FormattedValue\":\"No\",\"new_appearsinwebsiteyn\":false,\"new_meetingenddate@OData.Community.Display.V1.FormattedValue\":\"7/24/2026\",\"new_meetingenddate\":\"2026-07-24T00:00:00Z\",\"statuscode@OData.Community.Display.V1.FormattedValue\":\"Active\",\"statuscode\":1,\"_createdby_value@OData.Community.Display.V1.FormattedValue\":\"Christina Raftoudi\",\"_createdby_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"systemuser\",\"_createdby_value\":\"68c7c513-bf1d-ef11-840a-6045bd971244\",\"_owninguser_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"systemuser\",\"_owninguser_value\":\"68c7c513-bf1d-ef11-840a-6045bd971244\",\"_modifiedby_value@OData.Community.Display.V1.FormattedValue\":\"Christina Raftoudi\",\"_modifiedby_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"systemuser\",\"_modifiedby_value\":\"68c7c513-bf1d-ef11-840a-6045bd971244\",\"new_meetingstartdate@OData.Community.Display.V1.FormattedValue\":\"7/21/2026\",\"new_meetingstartdate\":\"2026-07-21T00:00:00Z\",\"new_city\":\"Trabzon\",\"_ownerid_value@OData.Community.Display.V1.FormattedValue\":\"Christina Raftoudi\",\"_ownerid_value@Microsoft.Dynamics.CRM.associatednavigationproperty\":\"ownerid\",\"_ownerid_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"systemuser\",\"_ownerid_value\":\"68c7c513-bf1d-ef11-840a-6045bd971244\",\"modifiedon@OData.Community.Display.V1.FormattedValue\":\"6/8/2026 12:15 PM\",\"modifiedon\":\"2026-06-08T10:15:57Z\",\"new_websitemeetingid\":\"WEB-1002\",\"_owningbusinessunit_value@OData.Community.Display.V1.FormattedValue\":\"org02cf0e5c\",\"_owningbusinessunit_value@Microsoft.Dynamics.CRM.associatednavigationproperty\":\"owningbusinessunit\",\"_owningbusinessunit_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"businessunit\",\"_owningbusinessunit_value\":\"5787272b-71ba-eb11-8235-000d3aad2dec\",\"new_website_meetingsid\":\"95e2a505-2363-f111-a825-6045bd8d8634\",\"_new_country_value@OData.Community.Display.V1.FormattedValue\":\"Türkiye BS\",\"_new_country_value@Microsoft.Dynamics.CRM.associatednavigationproperty\":\"new_Country\",\"_new_country_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"new_country\",\"_new_country_value\":\"61dd45f0-2616-f111-8341-7c1e5271b8eb\",\"_new_meetingcode_value@OData.Community.Display.V1.FormattedValue\":\"MTG-1025\",\"_new_meetingcode_value@Microsoft.Dynamics.CRM.associatednavigationproperty\":\"new_MeetingCode\",\"_new_meetingcode_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"new_meeting_transactional_data\",\"_new_meetingcode_value\":\"70f7f57f-2263-f111-a826-6045bd87572e\",\"statecode@OData.Community.Display.V1.FormattedValue\":\"Active\",\"statecode\":0,\"new_meetingtitle\":\"Scientific Advisory Committee for the Black Sea (ACBS) – 1st session\",\"_new_expertgroup_value@OData.Community.Display.V1.FormattedValue\":\"ACBS Statutory Session\",\"_new_expertgroup_value@Microsoft.Dynamics.CRM.associatednavigationproperty\":\"new_ExpertGroup\",\"_new_expertgroup_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"new_expertgroup\",\"_new_expertgroup_value\":\"67039d5e-4028-f111-8341-000d3a281ed5\",\"new_websitelinkstayclickableuponexpiration@OData.Community.Display.V1.FormattedValue\":\"No\",\"new_websitelinkstayclickableuponexpiration\":false,\"timezoneruleversionnumber@OData.Community.Display.V1.FormattedValue\":\"0\",\"timezoneruleversionnumber\":0,\"_new_meetingcategory_value@OData.Community.Display.V1.FormattedValue\":\"Fisheries (Black Sea - ACBS)\",\"_new_meetingcategory_value@Microsoft.Dynamics.CRM.associatednavigationproperty\":\"new_MeetingCategory\",\"_new_meetingcategory_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"cr662_meeting_category\",\"_new_meetingcategory_value\":\"e019e726-a423-f111-8341-6045bd87572e\",\"new_meetingtypes@OData.Community.Display.V1.FormattedValue\":\"GFCM Meetings\",\"new_meetingtypes\":100000000,\"createdon@OData.Community.Display.V1.FormattedValue\":\"6/8/2026 12:15 PM\",\"createdon\":\"2026-06-08T10:15:57Z\",\"new_venue\":\"SUMAE - Central Fisheries Research Institute\",\"versionnumber@OData.Community.Display.V1.FormattedValue\":\"44,131,756\",\"versionnumber\":44131756},{\"@odata.etag\":\"W/\\\"44131637\\\"\",\"new_appearsinwebsiteyn@OData.Community.Display.V1.FormattedValue\":\"Yes\",\"new_appearsinwebsiteyn\":true,\"new_meetingenddate@OData.Community.Display.V1.FormattedValue\":\"8/28/2026\",\"new_meetingenddate\":\"2026-08-28T00:00:00Z\",\"statuscode@OData.Community.Display.V1.FormattedValue\":\"Active\",\"statuscode\":1,\"_createdby_value@OData.Community.Display.V1.FormattedValue\":\"Christina Raftoudi\",\"_createdby_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"systemuser\",\"_createdby_value\":\"68c7c513-bf1d-ef11-840a-6045bd971244\",\"_owninguser_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"systemuser\",\"_owninguser_value\":\"68c7c513-bf1d-ef11-840a-6045bd971244\",\"_modifiedby_value@OData.Community.Display.V1.FormattedValue\":\"Chiara Baffoni\",\"_modifiedby_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"systemuser\",\"_modifiedby_value\":\"c9c26a1f-0acd-ef11-8ee9-6045bd958ea9\",\"_new_websitesection_value@OData.Community.Display.V1.FormattedValue\":\"Main page\",\"_new_websitesection_value@Microsoft.Dynamics.CRM.associatednavigationproperty\":\"new_WebsiteSection\",\"_new_websitesection_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"new_website_sections\",\"_new_websitesection_value\":\"ffe9f425-ca5d-f111-a825-70a8a563f598\",\"new_meetingstartdate@OData.Community.Display.V1.FormattedValue\":\"8/24/2026\",\"new_meetingstartdate\":\"2026-08-24T00:00:00Z\",\"new_city\":\"Rome\",\"_modifiedonbehalfby_value@OData.Community.Display.V1.FormattedValue\":\"Chiara Baffoni\",\"_modifiedonbehalfby_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"systemuser\",\"_modifiedonbehalfby_value\":\"c9c26a1f-0acd-ef11-8ee9-6045bd958ea9\",\"_ownerid_value@OData.Community.Display.V1.FormattedValue\":\"Christina Raftoudi\",\"_ownerid_value@Microsoft.Dynamics.CRM.associatednavigationproperty\":\"ownerid\",\"_ownerid_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"systemuser\",\"_ownerid_value\":\"68c7c513-bf1d-ef11-840a-6045bd971244\",\"modifiedon@OData.Community.Display.V1.FormattedValue\":\"6/8/2026 11:53 AM\",\"modifiedon\":\"2026-06-08T09:53:10Z\",\"new_websitemeetingid\":\"WEB-1000\",\"_owningbusinessunit_value@OData.Community.Display.V1.FormattedValue\":\"org02cf0e5c\",\"_owningbusinessunit_value@Microsoft.Dynamics.CRM.associatednavigationproperty\":\"owningbusinessunit\",\"_owningbusinessunit_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"businessunit\",\"_owningbusinessunit_value\":\"5787272b-71ba-eb11-8235-000d3aad2dec\",\"new_website_meetingsid\":\"ae02d2dd-0a60-f111-a825-6045bd87572e\",\"_new_country_value@OData.Community.Display.V1.FormattedValue\":\"Italy\",\"_new_country_value@Microsoft.Dynamics.CRM.associatednavigationproperty\":\"new_Country\",\"_new_country_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"new_country\",\"_new_country_value\":\"c6e9b9f0-2616-f111-8341-6045bd87572e\",\"statecode@OData.Community.Display.V1.FormattedValue\":\"Active\",\"statecode\":0,\"new_meetingtitle\":\"Stock Assessment for Managers\",\"_new_expertgroup_value@OData.Community.Display.V1.FormattedValue\":\"SAC Trainings\",\"_new_expertgroup_value@Microsoft.Dynamics.CRM.associatednavigationproperty\":\"new_ExpertGroup\",\"_new_expertgroup_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"new_expertgroup\",\"_new_expertgroup_value\":\"710201a9-c015-f111-8341-6045bd87572e\",\"new_websitelinkstayclickableuponexpiration@OData.Community.Display.V1.FormattedValue\":\"No\",\"new_websitelinkstayclickableuponexpiration\":false,\"timezoneruleversionnumber@OData.Community.Display.V1.FormattedValue\":\"0\",\"timezoneruleversionnumber\":0,\"_new_meetingcategory_value@OData.Community.Display.V1.FormattedValue\":\"Fisheries (Mediterranean - SAC)\",\"_new_meetingcategory_value@Microsoft.Dynamics.CRM.associatednavigationproperty\":\"new_MeetingCategory\",\"_new_meetingcategory_value@Microsoft.Dynamics.CRM.lookuplogicalname\":\"cr662_meeting_category\",\"_new_meetingcategory_value\":\"3b390f03-c015-f111-8341-6045bd8a5c65\",\"new_meetingtypes@OData.Community.Display.V1.FormattedValue\":\"GFCM Meetings\",\"new_meetingtypes\":100000000,\"createdon@OData.Community.Display.V1.FormattedValue\":\"6/4/2026 1:45 PM\",\"createdon\":\"2026-06-04T11:45:22Z\",\"new_venue\":\"FAO HQ\",\"versionnumber@OData.Community.Display.V1.FormattedValue\":\"44,131,637\",\"versionnumber\":44131637}]"
 }
 ;
 
