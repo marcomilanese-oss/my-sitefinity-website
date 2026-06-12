@@ -1,6 +1,6 @@
 window.GFCM_MEETINGS_EXPORT = {
   "metadata": {
-    "generatedAt": "2026-06-12T13:00:02.0469977Z",
+    "generatedAt": "2026-06-12T13:02:44.3043363Z",
     "source": "Dataverse",
     "environment": "GFCM Extranet Environment",
     "table": "new_website_meetingses",
@@ -19,72 +19,32 @@ window.GFCM_MEETINGS_EXPORT = {
       "type": "text"
     },
     {
-      "key": "_new_country_value@OData.Community.Display.V1.FormattedValue",
+      "key": "[_new_country_value@OData.Community.Display.V1.FormattedValue](mailto:_new_country_value@OData.Community.Display.V1.FormattedValue)",
       "label": "Country",
       "type": "lookup"
     },
     {
-      "key": "createdon@OData.Community.Display.V1.FormattedValue",
-      "label": "Created On",
-      "type": "date"
-    },
-    {
-      "key": "_createdby_value@OData.Community.Display.V1.FormattedValue",
-      "label": "Created By",
-      "type": "lookup"
-    },
-    {
-      "key": "_createdonbehalfby_value@OData.Community.Display.V1.FormattedValue",
-      "label": "Created By Delegate",
-      "type": "lookup"
-    },
-    {
-      "key": "modifiedon@OData.Community.Display.V1.FormattedValue",
-      "label": "Modified On",
-      "type": "date"
-    },
-    {
-      "key": "_modifiedby_value@OData.Community.Display.V1.FormattedValue",
-      "label": "Modified By",
-      "type": "lookup"
-    },
-    {
-      "key": "_modifiedonbehalfby_value@OData.Community.Display.V1.FormattedValue",
-      "label": "Modified By Delegate",
-      "type": "lookup"
-    },
-    {
-      "key": "importsequencenumber",
-      "label": "Import Sequence Number",
-      "type": "number"
-    },
-    {
-      "key": "overriddencreatedon@OData.Community.Display.V1.FormattedValue",
-      "label": "Record Created On",
-      "type": "date"
-    },
-    {
-      "key": "_new_expertgroup_value@OData.Community.Display.V1.FormattedValue",
+      "key": "[_new_expertgroup_value@OData.Community.Display.V1.FormattedValue](mailto:_new_expertgroup_value@OData.Community.Display.V1.FormattedValue)",
       "label": "Expert Group",
       "type": "lookup"
     },
     {
-      "key": "_new_meetingcategory_value@OData.Community.Display.V1.FormattedValue",
+      "key": "[_new_meetingcategory_value@OData.Community.Display.V1.FormattedValue](mailto:_new_meetingcategory_value@OData.Community.Display.V1.FormattedValue)",
       "label": "Meeting Category",
       "type": "lookup"
     },
     {
-      "key": "_new_meetingcode_value@OData.Community.Display.V1.FormattedValue",
+      "key": "[_new_meetingcode_value@OData.Community.Display.V1.FormattedValue](mailto:_new_meetingcode_value@OData.Community.Display.V1.FormattedValue)",
       "label": "Meeting Code",
       "type": "lookup"
     },
     {
-      "key": "new_meetingenddate@OData.Community.Display.V1.FormattedValue",
+      "key": "[new_meetingenddate@OData.Community.Display.V1.FormattedValue](mailto:new_meetingenddate@OData.Community.Display.V1.FormattedValue)",
       "label": "Meeting End Date",
       "type": "date"
     },
     {
-      "key": "new_meetingstartdate@OData.Community.Display.V1.FormattedValue",
+      "key": "[new_meetingstartdate@OData.Community.Display.V1.FormattedValue](mailto:new_meetingstartdate@OData.Community.Display.V1.FormattedValue)",
       "label": "Meeting Start Date",
       "type": "date"
     },
@@ -94,7 +54,7 @@ window.GFCM_MEETINGS_EXPORT = {
       "type": "text"
     },
     {
-      "key": "new_meetingtypes@OData.Community.Display.V1.FormattedValue",
+      "key": "[new_meetingtypes@OData.Community.Display.V1.FormattedValue](mailto:new_meetingtypes@OData.Community.Display.V1.FormattedValue)",
       "label": "Meeting Type",
       "type": "choice"
     },
@@ -129,29 +89,9 @@ window.GFCM_MEETINGS_EXPORT = {
       "type": "url"
     },
     {
-      "key": "_new_session_value@OData.Community.Display.V1.FormattedValue",
+      "key": "[_new_session_value@OData.Community.Display.V1.FormattedValue](mailto:_new_session_value@OData.Community.Display.V1.FormattedValue)",
       "label": "Session",
       "type": "lookup"
-    },
-    {
-      "key": "statecode@OData.Community.Display.V1.FormattedValue",
-      "label": "Status",
-      "type": "choice"
-    },
-    {
-      "key": "statuscode@OData.Community.Display.V1.FormattedValue",
-      "label": "Status Reason",
-      "type": "choice"
-    },
-    {
-      "key": "timezoneruleversionnumber",
-      "label": "Time Zone Rule Version Number",
-      "type": "number"
-    },
-    {
-      "key": "utcconversiontimezonecode",
-      "label": "UTC Conversion Time Zone Code",
-      "type": "number"
     },
     {
       "key": "new_websitelinkstayclickableuponexpiration",
@@ -159,17 +99,17 @@ window.GFCM_MEETINGS_EXPORT = {
       "type": "boolean"
     },
     {
-      "key": "_new_websitepage_value@OData.Community.Display.V1.FormattedValue",
+      "key": "[_new_websitepage_value@OData.Community.Display.V1.FormattedValue](mailto:_new_websitepage_value@OData.Community.Display.V1.FormattedValue)",
       "label": "Website Page",
       "type": "lookup"
     },
     {
-      "key": "_new_websitesection_value@OData.Community.Display.V1.FormattedValue",
+      "key": "[_new_websitesection_value@OData.Community.Display.V1.FormattedValue](mailto:_new_websitesection_value@OData.Community.Display.V1.FormattedValue)",
       "label": "Website Section",
       "type": "lookup"
     },
     {
-      "key": "_new_websitetype_value@OData.Community.Display.V1.FormattedValue",
+      "key": "[_new_websitetype_value@OData.Community.Display.V1.FormattedValue](mailto:_new_websitetype_value@OData.Community.Display.V1.FormattedValue)",
       "label": "Website Type",
       "type": "lookup"
     },
@@ -182,31 +122,6 @@ window.GFCM_MEETINGS_EXPORT = {
       "key": "new_website_meetingsid",
       "label": "Website Meetings Dataverse Row ID",
       "type": "text"
-    },
-    {
-      "key": "_ownerid_value@OData.Community.Display.V1.FormattedValue",
-      "label": "Owner",
-      "type": "lookup"
-    },
-    {
-      "key": "_owningbusinessunit_value@OData.Community.Display.V1.FormattedValue",
-      "label": "Owning Business Unit",
-      "type": "lookup"
-    },
-    {
-      "key": "_owningteam_value@OData.Community.Display.V1.FormattedValue",
-      "label": "Owning Team",
-      "type": "lookup"
-    },
-    {
-      "key": "_owninguser_value@OData.Community.Display.V1.FormattedValue",
-      "label": "Owning User",
-      "type": "lookup"
-    },
-    {
-      "key": "versionnumber",
-      "label": "Version Number",
-      "type": "number"
     }
   ],
   "rows": [
