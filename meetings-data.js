@@ -1,6 +1,6 @@
 window.GFCM_MEETINGS_EXPORT = {
   "metadata": {
-    "generatedAt": "2026-06-15T10:00:06.3013115Z",
+    "generatedAt": "2026-06-15T13:00:06.0729507Z",
     "source": "Dataverse",
     "environment": "GFCM Extranet Environment",
     "table": "new_website_meetingses",
@@ -121,7 +121,7 @@ window.GFCM_MEETINGS_EXPORT = {
   ],
   "rows": [
     {
-      "@odata.etag": "W/\"44523157\"",
+      "@odata.etag": "W/\"44523704\"",
       "new_appearsinwebsiteyn@OData.Community.Display.V1.FormattedValue": "Yes",
       "new_appearsinwebsiteyn": true,
       "new_meetingenddate@OData.Community.Display.V1.FormattedValue": "6/12/2026",
@@ -135,6 +135,7 @@ window.GFCM_MEETINGS_EXPORT = {
       "_createdby_value@OData.Community.Display.V1.FormattedValue": "Christina Raftoudi",
       "_createdby_value@Microsoft.Dynamics.CRM.lookuplogicalname": "systemuser",
       "_createdby_value": "68c7c513-bf1d-ef11-840a-6045bd971244",
+      "new_publicwebsiteurl": "https://www.google.com/",
       "_owninguser_value@Microsoft.Dynamics.CRM.lookuplogicalname": "systemuser",
       "_owninguser_value": "68c7c513-bf1d-ef11-840a-6045bd971244",
       "new_publicreporturlfr": "https://doi.org/10.4060/cd9408fr",
@@ -157,8 +158,8 @@ window.GFCM_MEETINGS_EXPORT = {
       "_ownerid_value@Microsoft.Dynamics.CRM.lookuplogicalname": "systemuser",
       "_ownerid_value": "68c7c513-bf1d-ef11-840a-6045bd971244",
       "new_publicreporturlen": "https://openknowledge.fao.org/handle/20.500.14283/cd9408en",
-      "modifiedon@OData.Community.Display.V1.FormattedValue": "6/15/2026 11:48 AM",
-      "modifiedon": "2026-06-15T09:48:05Z",
+      "modifiedon@OData.Community.Display.V1.FormattedValue": "6/15/2026 2:26 PM",
+      "modifiedon": "2026-06-15T12:26:36Z",
       "new_websitemeetingid": "WEB-1006",
       "_owningbusinessunit_value@OData.Community.Display.V1.FormattedValue": "org02cf0e5c",
       "_owningbusinessunit_value@Microsoft.Dynamics.CRM.associatednavigationproperty": "owningbusinessunit",
@@ -193,8 +194,8 @@ window.GFCM_MEETINGS_EXPORT = {
       "createdon@OData.Community.Display.V1.FormattedValue": "6/8/2026 12:32 PM",
       "createdon": "2026-06-08T10:32:22Z",
       "new_venue": "NEA",
-      "versionnumber@OData.Community.Display.V1.FormattedValue": "44,523,157",
-      "versionnumber": 44523157
+      "versionnumber@OData.Community.Display.V1.FormattedValue": "44,523,704",
+      "versionnumber": 44523704
     },
     {
       "@odata.etag": "W/\"44132360\"",
