@@ -8,6 +8,8 @@
 .flags-box p {
         margin-bottom: 0px;
 }
+.spazio-flags .card{
+    margin-bottom: 1.5rem !important;}
 
 .nascondi-descr p.card-text, 
 .nascondi-descr p,
