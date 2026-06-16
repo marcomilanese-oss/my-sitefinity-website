@@ -1,3 +1,13 @@
+.flags-box img {
+    max-width: 62px;
+    margin-right: 15px;
+    border-radius: 4px;
+}
+
+.flags-box p {
+        margin-bottom: 0px;
+}
+
 .nascondi-descr p.card-text, 
 .nascondi-descr p,
 .card-publication .date,
