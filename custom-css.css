@@ -11,7 +11,8 @@
 .nascondi-descr p.card-text, 
 .nascondi-descr p,
 .card-publication .date,
-.card-publication .title-category{
+.card-publication .title-category,
+.title-category{
     display: none;
 }
 .small-decr p.card-text {
