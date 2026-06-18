@@ -1,3 +1,13 @@
+.area-speakers .card-body h5.card-title {
+    font-size: 16px;
+}
+.area-speakers .card-body p.card-text {
+    margin: 0px;
+}
+.area-speakers .card-body p {
+    font-size: 12px;
+}
+
 .flags-box img {
     max-width: 62px;
     margin-right: 15px;
