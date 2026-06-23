@@ -1,6 +1,6 @@
 window.GFCM_MEETINGS_EXPORT = {
   "metadata": {
-    "generatedAt": "2026-06-23T16:15:01.3457660Z",
+    "generatedAt": "2026-06-23T16:30:02.0475371Z",
     "source": "Dataverse",
     "environment": "GFCM Extranet Environment",
     "table": "new_website_meetingses",
