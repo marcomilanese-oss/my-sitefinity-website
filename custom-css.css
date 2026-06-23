@@ -1,3 +1,17 @@
+.box-logo-custom img {
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    margin: 0px;
+}
+.box-logo-custom {
+    background-color: #F2F2F2;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .area-speakers .card-body h5.card-title {
     font-size: 16px;
 }
