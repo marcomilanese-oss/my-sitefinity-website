@@ -1,7 +1,7 @@
 window.myTableData = [
   {
     "decisionStatus": "",
-    "year": "",
+    "year": "{\"@odata.type\":\"#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference\",\"Id\":14,\"Value\":\"2006\"}",
     "type": "Null",
     "category": "",
     "number": "1",
@@ -19,11 +19,20 @@ window.myTableData = [
     "validityStarted": "",
     "validityEnded": "",
     "modified": "",
-    "files": []
+    "files": [
+      {
+        "label": "EN",
+        "url": "<English file URL>"
+      },
+      {
+        "label": "FR",
+        "url": "<French file URL>"
+      }
+    ]
   },
   {
     "decisionStatus": "",
-    "year": "",
+    "year": "{\"@odata.type\":\"#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference\",\"Id\":44,\"Value\":\"1976\"}",
     "type": "Null",
     "category": "",
     "number": "3",
@@ -41,11 +50,20 @@ window.myTableData = [
     "validityStarted": "",
     "validityEnded": "",
     "modified": "",
-    "files": []
+    "files": [
+      {
+        "label": "EN",
+        "url": "<English file URL>"
+      },
+      {
+        "label": "FR",
+        "url": "<French file URL>"
+      }
+    ]
   },
   {
     "decisionStatus": "",
-    "year": "",
+    "year": "{\"@odata.type\":\"#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference\",\"Id\":23,\"Value\":\"1997\"}",
     "type": "Null",
     "category": "",
     "number": "1",
@@ -63,11 +81,20 @@ window.myTableData = [
     "validityStarted": "",
     "validityEnded": "",
     "modified": "",
-    "files": []
+    "files": [
+      {
+        "label": "EN",
+        "url": "<English file URL>"
+      },
+      {
+        "label": "FR",
+        "url": "<French file URL>"
+      }
+    ]
   },
   {
     "decisionStatus": "",
-    "year": "",
+    "year": "{\"@odata.type\":\"#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference\",\"Id\":18,\"Value\":\"2002\"}",
     "type": "Null",
     "category": "",
     "number": "1",
@@ -85,11 +112,20 @@ window.myTableData = [
     "validityStarted": "",
     "validityEnded": "",
     "modified": "",
-    "files": []
+    "files": [
+      {
+        "label": "EN",
+        "url": "<English file URL>"
+      },
+      {
+        "label": "FR",
+        "url": "<French file URL>"
+      }
+    ]
   },
   {
     "decisionStatus": "",
-    "year": "",
+    "year": "{\"@odata.type\":\"#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference\",\"Id\":15,\"Value\":\"2005\"}",
     "type": "Null",
     "category": "",
     "number": "1",
@@ -107,11 +143,20 @@ window.myTableData = [
     "validityStarted": "",
     "validityEnded": "",
     "modified": "",
-    "files": []
+    "files": [
+      {
+        "label": "EN",
+        "url": "<English file URL>"
+      },
+      {
+        "label": "FR",
+        "url": "<French file URL>"
+      }
+    ]
   },
   {
     "decisionStatus": "",
-    "year": "",
+    "year": "{\"@odata.type\":\"#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference\",\"Id\":14,\"Value\":\"2006\"}",
     "type": "Null",
     "category": "",
     "number": "1",
@@ -129,11 +174,20 @@ window.myTableData = [
     "validityStarted": "",
     "validityEnded": "",
     "modified": "",
-    "files": []
+    "files": [
+      {
+        "label": "EN",
+        "url": "<English file URL>"
+      },
+      {
+        "label": "FR",
+        "url": "<French file URL>"
+      }
+    ]
   },
   {
     "decisionStatus": "",
-    "year": "",
+    "year": "{\"@odata.type\":\"#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference\",\"Id\":14,\"Value\":\"2006\"}",
     "type": "Null",
     "category": "",
     "number": "2",
@@ -151,11 +205,20 @@ window.myTableData = [
     "validityStarted": "",
     "validityEnded": "",
     "modified": "",
-    "files": []
+    "files": [
+      {
+        "label": "EN",
+        "url": "<English file URL>"
+      },
+      {
+        "label": "FR",
+        "url": "<French file URL>"
+      }
+    ]
   },
   {
     "decisionStatus": "",
-    "year": "",
+    "year": "{\"@odata.type\":\"#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference\",\"Id\":14,\"Value\":\"2006\"}",
     "type": "Null",
     "category": "",
     "number": "3",
@@ -173,11 +236,20 @@ window.myTableData = [
     "validityStarted": "",
     "validityEnded": "",
     "modified": "",
-    "files": []
+    "files": [
+      {
+        "label": "EN",
+        "url": "<English file URL>"
+      },
+      {
+        "label": "FR",
+        "url": "<French file URL>"
+      }
+    ]
   },
   {
     "decisionStatus": "",
-    "year": "",
+    "year": "{\"@odata.type\":\"#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference\",\"Id\":13,\"Value\":\"2007\"}",
     "type": "Null",
     "category": "",
     "number": "1",
@@ -195,11 +267,20 @@ window.myTableData = [
     "validityStarted": "",
     "validityEnded": "",
     "modified": "",
-    "files": []
+    "files": [
+      {
+        "label": "EN",
+        "url": "<English file URL>"
+      },
+      {
+        "label": "FR",
+        "url": "<French file URL>"
+      }
+    ]
   },
   {
     "decisionStatus": "",
-    "year": "",
+    "year": "{\"@odata.type\":\"#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference\",\"Id\":11,\"Value\":\"2009\"}",
     "type": "Null",
     "category": "",
     "number": "1",
@@ -217,7 +298,16 @@ window.myTableData = [
     "validityStarted": "",
     "validityEnded": "",
     "modified": "",
-    "files": []
+    "files": [
+      {
+        "label": "EN",
+        "url": "<English file URL>"
+      },
+      {
+        "label": "FR",
+        "url": "<French file URL>"
+      }
+    ]
   }
 ]
 ;
