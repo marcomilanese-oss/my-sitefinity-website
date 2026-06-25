@@ -10,6 +10,7 @@
 }
 .box-logo-custom {
     border: 1px solid #dee2e6;
+    background-color: #fff; 
     border-radius:4px;
     height: 120px;
     display: flex;
