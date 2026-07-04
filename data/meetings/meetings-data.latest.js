@@ -1,6 +1,6 @@
 window.GFCM_MEETINGS_LATEST = {
-  "file": "meetings-data-20260704T204516Z.js",
-  "path": "data/meetings/meetings-data-20260704T204516Z.js",
-  "generatedAt": "2026-07-04T20:45:16Z",
+  "file": "meetings-data-20260704T210020Z.js",
+  "path": "data/meetings/meetings-data-20260704T210020Z.js",
+  "generatedAt": "2026-07-04T21:00:20Z",
   "source": "Dataverse"
 };
