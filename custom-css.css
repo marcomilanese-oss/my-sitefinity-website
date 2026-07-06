@@ -51,6 +51,10 @@
 .title-category{
     display: none;
 }
+.hero-banner .title-category{
+    display: block;
+}
+
 .small-decr p.card-text {
     font-size:14px;
 }
