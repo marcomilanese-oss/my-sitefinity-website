@@ -1,3 +1,6 @@
+.tabella-power-bi .ratio-16x9 {
+    --bs-aspect-ratio: 100%;
+}
 .area-speakers .card-body {
     padding-bottom: 0px;
 }
