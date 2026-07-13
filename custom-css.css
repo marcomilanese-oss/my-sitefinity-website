@@ -40,6 +40,12 @@
     -webkit-line-clamp: 2;
     overflow: hidden;
 }
+.area-speakers .modal-content p {
+    display: block;
+    -webkit-box-orient: initial;
+    -webkit-line-clamp: initial;
+    overflow: visible;
+}
 .area-speakers .card-body .modal p {
     font-size: 1rem;
 }
