@@ -1,2 +1,2 @@
-window.GFCM_MEETINGS_LATEST = {"file":"dataverse-meetings-table-20260820-2200.js","path":"dataverse-meetings-table-20260820-2200.js","generatedAt":"2026-08-20T22:00:27Z","source":"Dataverse"}
+window.GFCM_MEETINGS_LATEST = {"file":"dataverse-meetings-table-20260821-0000.js","path":"dataverse-meetings-table-20260821-0000.js","generatedAt":"2026-08-21T00:00:29Z","source":"Dataverse"}
 ;
