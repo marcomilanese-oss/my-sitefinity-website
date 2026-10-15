@@ -1,6 +1,4 @@
-.dropdown-item{
- white-space: normal;
-}
+
 
 
 
@@ -147,3 +145,11 @@
     .banner-homepage .hero-banner {
         min-height: 475px;
     }
+
+
+
+@media (max-width: 576px) {
+    .dropdown-item{
+ white-space: normal;
+}
+}
