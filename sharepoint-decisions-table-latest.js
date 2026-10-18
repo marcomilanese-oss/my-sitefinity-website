@@ -1,1 +1,1 @@
-window.GFCM_DECISIONS_LATEST = {"file":"sharepoint-decisions-table-20261017-2228.js"};
+window.GFCM_DECISIONS_LATEST = {"file":"sharepoint-decisions-table-20261018-0028.js"};
