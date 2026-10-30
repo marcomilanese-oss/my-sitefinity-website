@@ -1,10 +1,98 @@
-
-
-
-
-.tabella-power-bi .ratio-16x9 {
-    --bs-aspect-ratio: 100%;
+@property --pbi-o {
+  syntax: '<number>';
+  inherits: true;
+  initial-value: 0;
 }
+
+/* La card non deve tagliare la nuvoletta */
+.tabella-power-bi {
+  overflow: visible !important;
+}
+
+/* Power BI: altezza corretta (16:9 + barra inferiore) */
+.tabella-power-bi .ratio-16x9 {
+  --bs-aspect-ratio: calc(56.25% + 36px) !important;
+}
+
+.tabella-power-bi .card-body {
+  position: relative;
+}
+.tabella-power-bi .card-body::before,
+.tabella-power-bi .card-body::after {
+  position: absolute;
+  z-index: 10;
+  pointer-events: none;
+}
+
+/* Nuvoletta: 10px sotto il report, sovrapposta */
+.tabella-power-bi .card-body::after {
+  content: "Click for full-screen view";
+  right: 16px;
+  top: calc(100% - 16px + 10px);
+  padding: .45rem .8rem;
+  border-radius: 6px;
+  background: #116AAB;
+  color: #fff;
+  font-size: .8125rem;
+  font-weight: 600;
+  line-height: 1.2;
+  white-space: nowrap;
+  box-shadow: 0 2px 8px rgba(0,0,0,.2);
+}
+
+/* Freccetta verso l'alto, puntata sull'icona fullscreen */
+.tabella-power-bi .card-body::before {
+  content: "";
+  right: calc(16px + 12px);
+  top: calc(100% - 16px + 10px - 7px);
+  border: 7px solid transparent;
+  border-top: 0;
+  border-bottom-color: #116AAB;
+}
+
+@keyframes pbi-hint { 0%, 100% { translate: 0 0; } 50% { translate: 0 -4px; } }
+@keyframes pbi-vis  { from, to { --pbi-o: 1; } }
+@keyframes pbi-in   { from { opacity: 0; transform: translateY(16px); } }
+@keyframes pbi-hide { to { opacity: 0; visibility: hidden; } }
+
+/* Browser moderni: sale dal basso quando il fondo del report è sullo schermo */
+@supports (animation-timeline: view()) {
+  .tabella-power-bi {
+    animation: pbi-vis linear;
+    animation-timeline: view();
+    animation-range: entry-crossing 100% exit-crossing 80%;
+  }
+  .tabella-power-bi .card-body::before,
+  .tabella-power-bi .card-body::after {
+    opacity: var(--pbi-o);
+    transform: translateY(calc((1 - var(--pbi-o)) * 16px));
+    transition: opacity .35s ease, transform .35s ease-out;
+    animation: pbi-hint 1.6s ease-in-out infinite;
+  }
+}
+
+/* Altri browser (es. Firefox): sale al caricamento, sparisce dopo 10 s */
+@supports not (animation-timeline: view()) {
+  .tabella-power-bi .card-body::before,
+  .tabella-power-bi .card-body::after {
+    animation: pbi-in .4s ease-out both,
+               pbi-hint 1.6s ease-in-out infinite,
+               pbi-hide .5s ease 10s forwards;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tabella-power-bi .card-body::before,
+  .tabella-power-bi .card-body::after {
+    animation: none;
+    transform: none;
+    transition: opacity .35s;
+  }
+}
+
+
+
+
 .area-speakers .card-body {
     padding-bottom: 0px;
 }
