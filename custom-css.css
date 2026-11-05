@@ -9,8 +9,12 @@
    Default 16:9 – si sovrascrive pagina per pagina con:
    <style>.tabella-power-bi { --pbi-ratio: 90.5%; }</style>
    La card non deve tagliare la nuvoletta (overflow visible) */
-.tabella-power-bi {
+/* :where() = specificità zero, così lo snippet nella pagina vince sempre,
+   anche se è caricato prima di questo file */
+:where(.tabella-power-bi) {
   --pbi-ratio: 56.25%;
+}
+.tabella-power-bi {
   overflow: visible !important;
 }
 
