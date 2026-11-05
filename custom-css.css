@@ -1,17 +1,22 @@
+/* ===== Power BI embeds ===== */
 @property --pbi-o {
   syntax: '<number>';
   inherits: true;
   initial-value: 0;
 }
 
-/* La card non deve tagliare la nuvoletta */
+/* Proporzione della pagina Power BI (altezza ÷ larghezza).
+   Default 16:9 – si sovrascrive pagina per pagina con:
+   <style>.tabella-power-bi { --pbi-ratio: 90.5%; }</style>
+   La card non deve tagliare la nuvoletta (overflow visible) */
 .tabella-power-bi {
+  --pbi-ratio: 56.25%;
   overflow: visible !important;
 }
 
-/* Power BI: altezza corretta (16:9 + barra inferiore) */
+/* Altezza = larghezza × proporzione + barre Power BI (zoom + footer) */
 .tabella-power-bi .ratio-16x9 {
-  --bs-aspect-ratio: calc(56.25% + 36px) !important;
+  --bs-aspect-ratio: calc(var(--pbi-ratio) + 60px) !important;
 }
 
 .tabella-power-bi .card-body {
@@ -90,9 +95,7 @@
   }
 }
 
-
-
-
+/* ===== Altro ===== */
 .area-speakers .card-body {
     padding-bottom: 0px;
 }
