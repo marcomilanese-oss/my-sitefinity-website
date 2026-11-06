@@ -20,7 +20,7 @@
 
 /* Altezza = larghezza × proporzione + barre Power BI (zoom + footer) */
 .tabella-power-bi .ratio-16x9 {
-  --bs-aspect-ratio: calc(var(--pbi-ratio) + 60px) !important;
+  --bs-aspect-ratio: calc(var(--pbi-ratio) + 68px) !important;
 }
 
 .tabella-power-bi .card-body {
